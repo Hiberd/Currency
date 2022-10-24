@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyApp.API", "CurrencyApp.API\CurrencyApp.API.csproj", "{68084AEB-305F-48FA-9EF7-91804364589A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3AF1B40B-FA2A-4218-A553-7E069B87B6B3} = {3AF1B40B-FA2A-4218-A553-7E069B87B6B3}
+		{3DC939DA-D88C-4233-9852-29AEB174DD4B} = {3DC939DA-D88C-4233-9852-29AEB174DD4B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyApp.DataAccess", "CurrencyApp.DataAccess\CurrencyApp.DataAccess.csproj", "{3DC939DA-D88C-4233-9852-29AEB174DD4B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1AD30E1B-AD34-478F-AB34-68525D39A7E4} = {1AD30E1B-AD34-478F-AB34-68525D39A7E4}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyApp.BusinessLogic", "CurrencyApp.BusinessLogic\CurrencyApp.BusinessLogic.csproj", "{3AF1B40B-FA2A-4218-A553-7E069B87B6B3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1AD30E1B-AD34-478F-AB34-68525D39A7E4} = {1AD30E1B-AD34-478F-AB34-68525D39A7E4}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyApp.Domain", "CurrencyApp.Domain\CurrencyApp.Domain.csproj", "{1AD30E1B-AD34-478F-AB34-68525D39A7E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68084AEB-305F-48FA-9EF7-91804364589A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68084AEB-305F-48FA-9EF7-91804364589A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68084AEB-305F-48FA-9EF7-91804364589A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68084AEB-305F-48FA-9EF7-91804364589A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC939DA-D88C-4233-9852-29AEB174DD4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC939DA-D88C-4233-9852-29AEB174DD4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC939DA-D88C-4233-9852-29AEB174DD4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC939DA-D88C-4233-9852-29AEB174DD4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AF1B40B-FA2A-4218-A553-7E069B87B6B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF1B40B-FA2A-4218-A553-7E069B87B6B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF1B40B-FA2A-4218-A553-7E069B87B6B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF1B40B-FA2A-4218-A553-7E069B87B6B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AD30E1B-AD34-478F-AB34-68525D39A7E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AD30E1B-AD34-478F-AB34-68525D39A7E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AD30E1B-AD34-478F-AB34-68525D39A7E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AD30E1B-AD34-478F-AB34-68525D39A7E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19AABD4C-15F1-4625-9B52-3E27DFBCF615}
+	EndGlobalSection
+EndGlobal
